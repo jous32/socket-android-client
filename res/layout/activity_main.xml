@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TextView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="hello"
+    android:id="@+id/myTextView"
+/>
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="IP"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText
+    android:id="@+id/server_ip"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+     >
+
+    <requestFocus />
+</EditText>
+
+<Button
+    android:id="@+id/button_connect"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="connect"
+    android:text="Connect" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Message"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<EditText android:text="EditText" android:layout_width="fill_parent" android:id="@+id/EditText01" android:layout_height="wrap_content">
+</EditText>
+<Button 
+    android:text="Button"
+    android:id="@+id/myButton" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+</Button>
+</LinearLayout>
